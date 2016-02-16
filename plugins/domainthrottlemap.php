@@ -117,6 +117,20 @@ class domainthrottlemap extends phplistPlugin {
       		case 'live.nl':
       		case 'live.com.au':
       			return "Microsoft"; break;
+		case 'onet.pl':
+		case 'vp.pl':
+		case 'op.pl':
+		case 'onet.eu':
+		case 'spoko.pl':
+		case 'autograf.pl':
+		case 'vip.onet.pl':
+		case 'poczta.onet.pl':
+		case 'onet.com.pl':
+		case 'opoczta.pl':
+		case 'amorki.pl':
+		case 'buziaczek.pl':
+		case 'pseudonim.pl':
+			return "Onet.pl"; break;
             
           
           /* 
