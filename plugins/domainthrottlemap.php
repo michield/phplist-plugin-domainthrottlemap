@@ -20,6 +20,8 @@ class domainthrottlemap extends phplistPlugin {
           
           case 'yahoo.co.uk':
     		  case 'yahoo.com':
+    		  case 'bellsouth.net':
+    		  case 'att.net':
     			  return "Yahoo"; break;	
       		case 'onedrive.net':
       		case 'windowsmobile.co.uk':
