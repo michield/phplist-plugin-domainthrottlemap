@@ -84,6 +84,7 @@ class domainthrottlemap extends phplistPlugin {
       		case 'microsoftsilverlight.net':
       		case 'microsoftsilverlight.org':
       		case 'live.eu':
+      		case 'live.se':
       		case 'internetexplorer.co':
       		case 'microsoftsilverlight.com':
       		case 'live.org':
