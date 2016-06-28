@@ -17,6 +17,20 @@ class domainthrottlemap extends phplistPlugin {
   function throttleDomainMap ($domain) {
       
       switch (strtolower($domain)) {
+    		case 'mail.ru':
+    		case 'inbox.ru':
+    		case 'list.ru':
+    		case 'bk.ru':
+      		  return "mail.ru"; break;	
+      		case 'juno.com':
+    		case 'netzero.com':
+    		case 'mybluelight.com':
+    		case 'emailmyname.com':
+      		  return "united_online"; break;
+      		case 'earthlink.net':
+    		case 'mindspring.com':
+    		case 'onemain.com':
+      		  return "earthlink"; break;
     		case 'ameritect.net':
     		case 'att.net':
     		case 'bellsouth.net':
