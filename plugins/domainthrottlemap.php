@@ -119,7 +119,7 @@ class domainthrottlemap extends phplistPlugin {
 			case 'writesoon.com':
 			case 'yaol.com':
 			case 'ygm.com':
-				return "aol"; break
+				return "aol"; break;
 			case 'email.com':
 			case 'usa.com':
 			case 'myself.com':
