@@ -6,6 +6,8 @@ php:
   - 7.0
   - 5.6
   - 5.5
+  - 5.4
+  - 5.3
 
 before_script:
   - sudo apt-get update > /dev/null
@@ -13,7 +15,7 @@ before_script:
   - composer install --prefer-dist
 
 script:
-  - vendor/njoannidi/php-lint-bash/phpLint
+  - vendor/njoannidi/php-lint-bash/phpLint plugins/
 
 after_failure:
   - echo "Failures detected."
