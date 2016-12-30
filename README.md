@@ -1,5 +1,7 @@
 # phplist-plugin-domainthrottlemap
 
+[![Build Status](https://travis-ci.org/michield/phplist-plugin-domainthrottlemap.svg?branch=master)](https://travis-ci.org/michield/phplist-plugin-domainthrottlemap)
+
 group domains for the purpose of domain throttling
 
 This plugin is a community effort to identify domains that belong together, so that they can be grouped for the purpose of throttling.
