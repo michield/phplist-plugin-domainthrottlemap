@@ -112,6 +112,7 @@ class domainthrottlemap extends phplistPlugin {
 			case 'tuaw.com':
 			case 'uvaol.com.br':
 			case 'vemashe.com':
+			case 'verizon.net':
 			case 'weblogsinc.com':
 			case 'wild4music.com':
 			case 'wmconnect.com':
