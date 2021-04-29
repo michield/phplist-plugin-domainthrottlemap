@@ -1,5 +1,5 @@
 {
-  "name": "phplist/phplist-plugin-domainthrottlemap",
+  "name": "michield/phplist-plugin-domainthrottlemap",
   "description": "Domain throttle plugin for phpList",
   "keywords": [
     "phplist",
